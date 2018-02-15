@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV === 'production') {
     module.exports = {
-        mongoURI: 'the string from mlab!'
+        mongoURI: 'mongodb://nikolaytsvetin:Cwetin123@ds237848.mlab.com:37848/task-manager'
     };
 } else {
     module.exports = {
